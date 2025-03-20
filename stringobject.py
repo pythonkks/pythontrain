@@ -107,10 +107,3 @@ ssplit1=input("Please type a string with spaces or delimeter of your choice: ")
 ssplit2=input("Enter the delimeter: ")
 ssplit=ssplit1.split(ssplit2)
 print(ssplit)
-
-#Join
-print("\nJoin function returns splitted values/words based on the specified delimeter. Default delimeter is space.")
-ssplit1=input("Please type a string with spaces or delimeter of your choice: ")
-ssplit2=input("Enter the delimeter: ")
-ssplit=ssplit1.split(ssplit2)
-print(ssplit)
