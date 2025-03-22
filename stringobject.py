@@ -59,7 +59,7 @@ slower1=input("Please type a string in uppercase or lower case or mixed case: ")
 slower=slower1.lower()
 print(slower)
 
-#Swapcase
+#Swapcase()
 print("\nSwapcase function returns the string by swapping the case of the letters from Upper to Lower, vice-versa.")
 sswapcase1=input("Please type a string in uppercase or lower case or mixed case(preferably): ")
 sswapcase=sswapcase1.swapcase()
@@ -77,33 +77,39 @@ sislower1=input("Please type a string in uppercase or lower case or mixed case: 
 sislower=sislower1.islower()
 print(sislower)
 
-#IsAplpha
+#IsAplpha()
 print("\nIsAlpha function returns boolean value True if the give string contains only alphabets otherwise returns False.")
 sisalpha1=input("Please type a string in uppercase or lower case or mixed case: ")
 sisalpha=sisalpha1.isalpha()
 print(sisalpha)
 
-#IsDigit
+#IsDigit()
 print("\nIsDigit function returns boolean value True if the give string contains only digits otherwise returns False.")
 sisdigit1=input("Please type a string of numbers or alphabets or alphanumerics: ")
 sisdigit=sisdigit1.isdigit()
 print(sisdigit)
 
-#IsAlNum
+#IsAlNum()
 print("\nIsAlNum function returns boolean value True if the give string both alphabets and numbers otherwise returns False.")
 sisalnum1=input("Please type a string of numbers or alphabets or alphanumerics: ")
 sisalnum=sisalnum1.isalnum()
 print(sisalnum)
 
-#IsSpace
+#IsSpace()
 print("\nIsSpace function returns boolean value True if the give string contains only spaces otherwise returns False.")
 sisspace1=input("Please type a string of numbers or alphabets or alphanumerics: ")
 sisspace=sisspace1.isspace()
 print(sisspace)
 
-#Split
+#Split()
 print("\nSplit function returns splitted values/words based on the specified delimeter. Default delimeter is space.")
 ssplit1=input("Please type a string with spaces or delimeter of your choice: ")
 ssplit2=input("Enter the delimeter: ")
 ssplit=ssplit1.split(ssplit2)
 print(ssplit)
+
+#Expandtabs
+print("\nExpandtabs function replaces tab characters (\t) with spaces.")
+sexpandtabs1=input("Please type a string with tab characters (\t): ")
+sexpandtabs=sexpandtabs1.expandtabs()
+print(sexpandtabs)
